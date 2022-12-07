@@ -1,0 +1,231 @@
+body {
+  background-color: #FEF7DC;
+  margin: 0;
+  text-align: center;
+  font-family: 'Cormorant', serif;
+}
+
+h1{
+  font-weight: 700;
+  margin-bottom: 0;
+  color: #4A503D;
+}
+
+h2{
+  color: #4A503D;
+}
+
+h3{
+  margin-bottom: 0;
+  color: #4A503D;
+}
+
+h4{
+  margin-top: 0;
+  color: #4A503D;
+}
+
+
+#h2-top{
+  padding: 0;
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 21px;
+  color: #4A503D;
+}
+
+p{
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+}
+
+/* HEADER */
+.header{
+  background-color: #E6DDC6;
+  padding: 10px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  padding: 10px;
+  color: #4A503D;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* TOP CONTAINER */
+.top-container{
+  background-color: #FEF7DC;
+  margin: 100px;
+}
+
+/* MIDDLE CONTAINER */
+.middle-container{
+  background-color: #EAE2B6;
+  padding: 30px;
+}
+
+.experience-container1{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.roads{
+  width: 22%;
+  float: left;
+  margin-right: 30px;
+  animation-name: roads;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes roads {
+  from{
+    top:0px;
+  }
+  to{
+    top: 20px;
+  }
+
+}
+
+.experience-container2{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: right;
+}
+
+.dpv{
+  width: 22%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* SKILLS CONTAINER */
+.skills-container{
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.table-skills{
+  border: 1px solid #E6DDC6;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th{
+  background-color: #4A503D;
+  color: white;
+}
+
+/* HOBBIES CONTAINER */
+.hobbies-container{
+  background-color: #EAE2B6;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.table-hobbies{
+  border: 1px solid #A19882;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-hobbies th{
+  background-color: #A19882;
+  color: white;
+}
+
+/* BOTTOM CONTAINER */
+.bottom-container{
+  background-color: #FEF7DC;
+  margin-top: 50px;
+  margin-bottom: 120px;
+}
+
+#p-btn{
+  margin-bottom: 40px;
+}
+
+.btn{
+  background-color: #4A503D;
+  color: white;
+  padding: 15px 30px;
+  margin: 50px 0 200px 0;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+form{
+  background-color: #E6DDC6;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px 20px;
+  border-radius: 5px;
+}
+
+.form-div{
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.form-div label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-div input[type=text], textarea{
+  border: 1px solid #C2B8A3;
+  border-radius: 5px;
+  padding: 10px;
+  display: block;
+  width: 95%;
+}
+
+input[type=button]{
+  background-color: #4A503D;
+  color: white;
+  padding: 15px 30px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type=button]:hover{
+  background-color: #B2B8A3;
+}
+
+/* FOOTER */
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  padding-top: 10px;
+  background-color: #E6DDC6;
+}
+
+.footer-link{
+  color: #4A503D;
+  font-weight: 600;
+  text-decoration: none;
+}
