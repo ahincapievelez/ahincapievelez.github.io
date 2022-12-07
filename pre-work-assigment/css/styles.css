@@ -85,24 +85,12 @@ li a{
   text-align: left;
 }
 
-.roads{
-  width: 22%;
+.videoroads{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
   float: left;
   margin-right: 30px;
-  animation-name: roads;
-  animation-duration: 3s;
-  animation-delay: 2s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes roads {
-  from{
-    top:0px;
-  }
-  to{
-    top: 20px;
-  }
-
 }
 
 .experience-container2{
@@ -111,8 +99,10 @@ li a{
   text-align: right;
 }
 
-.dpv{
-  width: 22%;
+.videodpv{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
   float: right;
   margin-left: 30px;
 }
